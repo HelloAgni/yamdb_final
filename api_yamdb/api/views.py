@@ -8,6 +8,7 @@ from rest_framework import filters, permissions, status, viewsets
 from rest_framework.decorators import action, api_view, permission_classes
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
+from reviews.models import Category, Genre, Review, Title, User
 
 from .filters import TitleFilter
 from .mixins import CreateListDestroyViewSet
@@ -16,7 +17,6 @@ from .serializers import (CategorySerializer, CommentSerializer,
                           GenreSerializer, GetTitleSerializer,
                           ReviewSerializer, SignupSerializer, TitleSerializer,
                           TokenSerializer, UserEditSerializer, UserSerializer)
-from reviews.models import Category, Genre, Review, Title, User
 
 
 @api_view(['POST'])
