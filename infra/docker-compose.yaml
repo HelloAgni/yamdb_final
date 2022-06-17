@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: agnidock/infra_sp2
+    image: agnidock/yamdb_final
     restart: always
     volumes:
       - static_value:/app/static/
