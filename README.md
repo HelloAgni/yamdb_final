@@ -89,7 +89,7 @@ Response status 200 OK ✅
 Authorization -> Type 'Bearer Token' -> Token -> eyJ0e.........
 
 ***Технологии:***  
-Python 3.9, Django 2.2, DRF, Nginx, Docker, Docker-compose, Github Actions.
+Python 3.9, Django 2.2, DRF, Nginx, Docker, Docker-compose, Postgresql, Github Actions.
 
 ***Боевой сервер:***  
 http://redsunset.ddns.net/api/v1/
