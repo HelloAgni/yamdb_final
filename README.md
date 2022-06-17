@@ -57,7 +57,7 @@ POST  http://localhost/api/v1/auth/signup/
     "username": "tester1"
 }
 ```
-![#c5f015](https://via.placeholder.com/15/00FF00/000000?text=+) Response status 200 OK
+Response status 200 OK ✅
 ```json
 {
     "username": "tester1",
@@ -80,7 +80,7 @@ POST  http://localhost/api/v1/auth/token/
     "confirmation_code": "61b-18466437bce..."
 }
 ```
-![#c5f015](https://via.placeholder.com/15/00FF00/000000?text=+) Response status 200 OK
+Response status 200 OK ✅
 ```json
 {
     "token": "eyJ0e..........."
@@ -90,3 +90,6 @@ Authorization -> Type 'Bearer Token' -> Token -> eyJ0e.........
 
 ***Технологии:***  
 Python 3.9, Django 2.2, DRF, Nginx, Docker, Docker-compose, Github Actions.
+
+***Боевой сервер:***  
+http://redsunset.ddns.net/api/v1/
